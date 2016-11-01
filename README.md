@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
