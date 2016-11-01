@@ -50,7 +50,9 @@ The following **additional** features are implemented:
 
 ###### Challenges
 
-This project was a nightmare. I decided I didn't want to just use a cocoapod that I could import and have handle `oauth` for me, so I went about learning it. First off, I didn't know how the HTTP protocol worked. So I went and downloaded a networking book for Python and read the first half to learn how HTTP worked.
+This project was a nightmare. Luckily, I learned a ton about networking (HTTP, oauth, a variety of frameworks (including OAuthSwift, Alamofire, Moya), experience going into various cocoapods source code to see what is going wrong and how to understand much more complex code than I write, and some more experience working on RxSwift/Cocoa and my own microframework CoordinatorKit.
+
+I decided I didn't want to just use a cocoapod that I could import and have handle `oauth` for me, so I went about learning it. First off, I didn't know how the HTTP protocol worked. So I went and downloaded a networking book for Python and read the first half to learn how HTTP worked.
 
 From there I tried going about implementing the `oauth` dance without any helper frameworks. Well, Twitter's documentation is truly atrocious. There's one pair of documents that say "click here for this step" which takes you to a page that similarly says "click here to do this" which redirects back to the first. Nonetheless, I eventually figured out all the steps and was going about it just fine but ran into reoccurring bugs that I grew tired of tracking.
 
